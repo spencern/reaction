@@ -17,8 +17,8 @@ audit-argument-checks
 
 # Community Packages
 nemo64:bootstrap
-#mike:mocha
-#sanjo:jasmine
+mike:mocha
+sanjo:jasmine
 
 # Reaction Commerce Packages
 reactioncommerce:core
