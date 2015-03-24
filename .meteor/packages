@@ -14,6 +14,7 @@ less
 accounts-facebook
 spiderable
 audit-argument-checks
+browser-policy
 
 # Community Packages
 nemo64:bootstrap
