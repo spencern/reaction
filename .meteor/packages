@@ -17,13 +17,15 @@ audit-argument-checks
 fastclick
 
 # Community Packages
-nemo64:bootstrap
+juliancwirko:zf5
+#nemo64:bootstrap
 #mike:mocha
 #sanjo:jasmine
 
 # Reaction Commerce Packages
 reactioncommerce:core
-reactioncommerce:core-theme
+# reactioncommerce:core-theme
+getoutfitted:reaction-foundation-theme
 reactioncommerce:reaction-shipping
 reactioncommerce:reaction-paypal
 reactioncommerce:reaction-braintree
