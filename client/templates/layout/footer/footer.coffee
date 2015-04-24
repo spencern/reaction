@@ -10,4 +10,4 @@ Template.layoutFooter.helpers
     faSize: 'fa-3x'
     appsOrder: ['facebook', 'twitter', 'pinterest', 'googleplus']
 
-Template.footer.replaces "layoutFooter"
+# Template.footer.replaces "layoutFooter"

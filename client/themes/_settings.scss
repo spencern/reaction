@@ -83,13 +83,13 @@ $include-html-global-classes: $include-html-classes;
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
 
-// $last-child-float: $opposite-direction;
+$last-child-float: left;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-// $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: 'Open Sans', Roboto, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
@@ -97,33 +97,35 @@ $include-html-global-classes: $include-html-classes;
 // $font-weight-normal: normal;
 // $font-weight-bold: bold;
 
-// $white       : #FFFFFF;
-// $ghost       : #FAFAFA;
-// $snow        : #F9F9F9;
-// $vapor       : #F6F6F6;
-// $white-smoke : #F5F5F5;
-// $silver      : #EFEFEF;
-// $smoke       : #EEEEEE;
-// $gainsboro   : #DDDDDD;
-// $iron        : #CCCCCC;
-// $base        : #AAAAAA;
-// $aluminum    : #999999;
-// $jumbo       : #888888;
-// $monsoon     : #777777;
-// $steel       : #666666;
-// $charcoal    : #555555;
-// $tuatara     : #444444;
-// $oil         : #333333;
-// $jet         : #222222;
-// $black       : #000000;
+$white       : #FFFFFF;
+$ghost       : #FAFAFA;
+$snow        : #F9F9F9;
+$vapor       : #F6F6F6;
+$white-smoke : #F5F5F5;
+$silver      : #EFEFEF;
+$smoke       : #EEEEEE;
+$gainsboro   : #DDDDDD;
+$iron        : #CCCCCC;
+$base        : #AAAAAA;
+$aluminum    : #999999;
+$jumbo       : #888888;
+$monsoon     : #777777;
+$steel       : #666666;
+$charcoal    : #555555;
+$tuatara     : #444444;
+$oil         : #333333;
+$jet         : #222222;
+$black       : #000000;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+$primary-color: #428BCA;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
-// $success-color: #43AC6A;
+$success-color: #74C47A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+
+$brand-light-blue: #2FA4E7;
 
 // We use these to control various global styles
 // $body-bg: $white;
@@ -142,7 +144,7 @@ $include-html-global-classes: $include-html-classes;
 // $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+$global-radius: 4px;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -1381,7 +1383,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: $oil;
+$topbar-bg-color: $brand-light-blue;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1390,7 +1392,7 @@ $include-html-global-classes: $include-html-classes;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
-// $topbar-title-font-size: rem-calc(17);
+$topbar-title-font-size: rem-calc(18);
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: $white;
@@ -1398,7 +1400,7 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-link-color-active: $white;
 // $topbar-link-color-active-hover: $white;
 // $topbar-link-weight: $font-weight-normal;
-// $topbar-link-font-size: rem-calc(13);
+$topbar-link-font-size: rem-calc(14);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-hover: $oil;
@@ -1414,11 +1416,11 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: $oil;
-// $topbar-dropdown-link-color: $white;
-// $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
-// $topbar-dropdown-link-bg: $oil;
-// $topbar-dropdown-link-bg-hover: $oil;
+$topbar-dropdown-bg: $white;
+$topbar-dropdown-link-color: $jet;
+$topbar-dropdown-link-color-hover: $jet;
+$topbar-dropdown-link-bg: $white;
+$topbar-dropdown-link-bg-hover: $silver;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: $white;
