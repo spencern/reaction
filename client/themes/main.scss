@@ -48,9 +48,21 @@
 @import "theme/themeglobal.scss";
 @import "theme/accounts/accounts.scss";
 @import "theme/accounts/inline/inline.scss";
+@import "theme/cart/cart.scss";
 @import "theme/cart/cartDrawer/cartItems/cartItems.scss";
 @import "theme/cart/cartDrawer/cartSubTotals/cartSubTotals.scss";
 @import "theme/cart/cartDrawer/cartDrawer.scss";
+@import "theme/cart/cartIcon/cartIcon.scss";
+@import "theme/cart/checkout/checkout.scss";
+@import "theme/cart/checkout/addressBook/addressBook.scss";
+@import "theme/cart/checkout/completed/completed.scss";
+@import "theme/cart/checkout/header/header.scss";
+@import "theme/cart/checkout/login/login.scss";
+@import "theme/cart/checkout/payment/payment.scss";
+@import "theme/cart/checkout/payment/methods/cards.scss";
+@import "theme/cart/checkout/progressBar/progressBar.scss";
+@import "theme/cart/checkout/review/review.scss";
+@import "theme/cart/checkout/shipping/shipping.scss";
 @import "theme/dashboard/dashboard.scss";
 @import "theme/dashboard/console/console.scss";
 @import "theme/dashboard/orders/orders.scss";
@@ -59,7 +71,7 @@
 @import "theme/dashboard/orders/stateHelpers/completed/completed.scss";
 @import "theme/dashboard/orders/stateHelpers/documents/documents.scss";
 @import "theme/dashboard/orders/stateHelpers/packing/packing.scss";
-@import "theme/dashboard/orders/stateHelpers/payment/payment.scss";
+// @import "theme/dashboard/orderes/stateHelpers/payment/payment.scss";
 @import "theme/dashboard/orders/stateHelpers/shipped/shipped.scss";
 @import "theme/dashboard/orders/stateHelpers/tracking/tracking.scss";
 @import "theme/dashboard/packages/packages.scss";
@@ -72,7 +84,6 @@
 @import "theme/layout/header/header.scss";
 @import "theme/layout/header/tags/tags.scss";
 @import "theme/layout/footer/footer.scss";
-@import "theme/cart/cartIcon/cartIcon.scss";
 @import "theme/products/products.scss";
 @import "theme/products/productDetail/productDetail.scss";
 @import "theme/products/productDetail/attributes/attributes.scss";
